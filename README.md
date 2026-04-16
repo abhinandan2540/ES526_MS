@@ -1,8 +1,8 @@
 # PINN-WyNDA: A Physics Informed Neural Network Method to Discover Mathematical Models of Dynamical Systems from Data
 
-This **PINN-WyNDA** project take inspiration from paper WyNDA https://www.sciencedirect.com/science/article/pii/S2215016124000797?via%3Dihub
+This **PINN-WyNDA** project takes inspiration from paper WyNDA https://www.sciencedirect.com/science/article/pii/S2215016124000797?via%3Dihub
 
-Original WyNDA github repo https://github.com/agushasan/discovery
+Original WyNDA GitHub repo https://github.com/agushasan/discovery
 
 This project consists of two parts:
 
@@ -32,7 +32,7 @@ MSD system is defined by three key parameters, namely the mass ( 𝑚 ), the spr
 initiate this process, we conduct a simulation of MSD system utilizing python matplotlib & numpy to gather pertinent data with 𝑚 = 1 kg, 𝑘 = 84 
 N/m, and 𝑏 = 0 . 9 NS/m.
 
-*Captured measurnments of the MSD system's position and velocity data from matplotlib simulation*
+*Captured measurements of the MSD system's position and velocity data from matplotlib simulation*
 <img width="574" height="432" alt="Captured measurements of the MSD system’s position and velocity data from Matplotlib simulation" src="https://github.com/user-attachments/assets/451c41f6-48ae-4899-a173-b41268fdd881" />
 
 *State estimation from measured data*
@@ -82,11 +82,27 @@ The Van der Pol oscillator model is an oscillating system with non-linear dampin
 <img width="990" height="790" alt="Parameter estimation with constant control input" src="https://github.com/user-attachments/assets/96a8a260-d1bc-4038-a9b8-2bcc8c6b568a" />
 
 ## Future Directions
-The future direction of the following work includes
+The future direction of the following work includes:-
 
-1. Implementing Physics Informed Neural Network (PINN) into the base **WyNDA** paper for following parameter estimations
-2. Extensive analysis of PINN WyNDA model on external dataset for robustness and effectiveness
-3. Comparision and analysis for further improvement
+| System                   | Algorithm | n     |
+| ------------------------ | --------- | ----- |
+| Lorenz System            | WyNDA     | 2000  |
+|                          | ARGOS     | 7944  |
+|                          | SINDy     | NA    |
+| Rössler Attractor        | SINDy     | 1585  |
+|                          | ARGOS     | 1585  |
+|                          | WyNDA     | 11000 |
+| Lotka–Volterra Equations | WyNDA     | 1400  |
+|                          | ARGOS     | 1996  |
+|                          | SINDy     | 1585  |
+| Van der Pol Oscillator   | SINDy     | 795   |
+|                          | ARGOS     | 1000  |
+|                          | WyNDA     | 1200  |
+
+1. Implementing Physics Informed Neural Network(PINN) on the same dataset for following parameter estimations
+2. Use the **WyNDA** equation to simulate the system and generate predictions.
+3. Compare predictions from **WyNDA** and **PINN** with real data using error metrics like MSE.
+4. Analyze which method gives better accuracy and overall performance.
 
 
 ## Project Contributors
