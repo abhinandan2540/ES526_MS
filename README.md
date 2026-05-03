@@ -7,7 +7,7 @@ Original WyNDA GitHub repo https://github.com/agushasan/discovery
 This project consists of two parts:
 
 - [x] Pythonic Implementation of WyNDA Code
-- [ ] Implementation of PINNs to WyNDA through extensive study & analysis
+- [x] Implementation of PINNs to WyNDA through extensive study & analysis
 
 **Completed** - Pythonic implementation of WyNDA code
 
