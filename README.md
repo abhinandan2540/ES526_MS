@@ -85,7 +85,7 @@ The future direction of the following work includes:
 
 Comparison of the number of data used by WyNDA with SINDy and ARGOS.
 
-| System                   | Algorithm | Year  |
+| System                   | Algorithm | n     |
 | ------------------------ | --------- | ----- |
 | Lorenz System            | WyNDA     | 2000  |
 |                          | ARGOS     | 7944  |
