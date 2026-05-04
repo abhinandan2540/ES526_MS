@@ -9,9 +9,8 @@ This project consists of two parts:
 - [x] Pythonic Implementation of WyNDA Code
 - [x] Implementation of PINNs to WyNDA through extensive study & analysis
 
-**Completed** - Pythonic implementation of WyNDA code
+**Completed** - Pythonic implementation of WyNDA code and PINNs implementation
 
-**In Progress** - Implementation of PINNs to WyNDA with extensive study & analysis
 
 ## About WyNDA
 
